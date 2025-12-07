@@ -50,6 +50,7 @@ with tab1:
     """)
 
 with tab2:
+    # The data came from here: https://www.kaggle.com/datasets/jonathanpilafas/2024-march-madness-statistical-analysis/data
     # Summary Statistics; Data Overview
     st.subheader("Dataset Overview")
     st.write("Shape:", mm.shape)
@@ -377,4 +378,5 @@ with tab4:
         st.bar_chart(comp_df)
 
 #streamlit run "C:/Users/ecric/OneDrive/Desktop/mm_streamlit.py"
+
 # Above is to keep handy the command to test the app.
